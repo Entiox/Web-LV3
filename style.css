@@ -183,6 +183,26 @@ button:hover {
 
 @media screen and (max-width: 992px) {
     
+    h1{
+        font-size: 8em;
+    }
+
+    h2{
+        font-size: 5em;
+    }
+
+    h3{
+        font-size: 3.5em
+    }
+
+    input, button, .item > p, .modal-content > p, .cart-item > p{
+        font-size: 3em;
+    }
+
+    .cart-item > button{
+        font-size: 2em;
+    }
+
     .items-grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, 100%);
@@ -192,11 +212,24 @@ button:hover {
     }
 
     .search-container{
-        margin-top: 15px;
+        margin-top: 25px;
+        margin-bottom: 55px;
+    }
+
+    .search{
+        margin-bottom: 25px;
     }
 
     .item{
         margin: auto;
+        width: 90%;
+        margin-top: 25px;
+        margin-bottom: 55px;
+        padding: 50px 20px;
+    }
+
+    img {
         width: 70%;
+        height: auto;
     }
 }
