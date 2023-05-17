@@ -1,9 +1,10 @@
 /* CSS variables */
 :root {
+    --primary-header-color: #00065c;
     --primary-button-color: #007bff;
     --secondary-button-color: #004782;
-    --primary-item-color: #e8f5ff;
-    --secondary-item-color: #b8dfff;
+    --primary-area-color: #e8f5ff;
+    --secondary-area-color: #b8dfff;
     --secondary-input-color: #e1edf5;
     --badge-color: #6c757d;
     --font-size-base: 16px;
@@ -23,8 +24,8 @@ h1 {
     font-size: 2.5em;
     margin-top: 0;
     font-family: Impact, sans-serif;
-    background-color: #e8f5ff;
-    color: #00065c;
+    background-color: var(--primary-area-color);
+    color: var(--primary-header-color);
     padding: 15px;
     border-radius: 10px;
 }
@@ -95,7 +96,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--primary-item-color);
+    background-color: var(--primary-area-color);
     border-radius: 45px 0px;
     padding: 35px;
     width: 200px;
@@ -104,7 +105,7 @@ button:hover {
 }
 
 .item:hover{
-    background-color: var(--secondary-item-color);
+    background-color: var(--secondary-area-color);
 }
 
 .item h2 {
