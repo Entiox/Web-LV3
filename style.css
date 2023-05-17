@@ -217,6 +217,7 @@ button:hover {
     }
 
     .search{
+    	width: 90%;
         margin-bottom: 25px;
     }
 
