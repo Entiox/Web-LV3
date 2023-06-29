@@ -1,6 +1,6 @@
 # LV 3 zadatak - HTML DOM i JavaScript u HTML-u
 
-Link: https://lv3-0b2r.onrender.com <br>
+Link: https://web-lv3.onrender.com <br>
 U ovoj vježbi zadatak je nadodati dinamičke fukncionalnosti u web stranicu koristeći znanja JavaScripta i HTML-a iz prethodnih vježbi. U repozitoriju se nalaze datoteke `index.html` i `style.css` u kojima se nalazi osnovni kostur stranice za web trgovinu. U datoteci `script.js` nalazi se početna točka za JavaScript koji ćete pisati. Potrebno je koristiti JavaScript i HTML DOM kako biste ostvarili funkcionalnosti.
 
 ## Kako funkcionira DOM
